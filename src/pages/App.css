@@ -1,3 +1,63 @@
 .App {
   text-align: center;
 }
+
+.title-font {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.description-font {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 80px 0 80px;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+
+.advantage-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid rgba(62, 133, 246, 0.5);
+  background-color: rgba(1, 5, 52, 0.2);;
+  border-radius: 16px;
+  padding: 32px;
+  row-gap: 10px;
+}
+
+.advantage-box-header {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.advantage-description-font {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.advantage-name-font {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 28px;
+  color: #fff;
+}

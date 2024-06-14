@@ -1,0 +1,197 @@
+@media (min-width: 1250px) {
+    .godmanai {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .rise-with-ai-powered-sales-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 18px;
+        margin-top: 122px;
+    }
+
+    .rise-with-ai-powered {
+        font-family: "Sofia Sans", Arial, sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        letter-spacing: 0.02em;
+        color: rgba(255, 255, 255, 0.95);
+    }
+
+    .welcome-to-the {
+        width: 712px;
+        font-family: "Sofia Sans", Arial, sans-serif;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .frame-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 24px;
+        padding: 0 80px;
+        margin-top: 78px;
+    }
+
+    .feature-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px 24px;
+    }
+
+    .feature {
+        border-radius: 16px;
+        background-color: rgba(1, 5, 52, 0.2);
+        border: 2px solid rgba(62, 133, 246, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 32px;
+        gap: 10px;
+        width: 396px;
+        box-sizing: border-box;
+    }
+
+    .fast-learning {
+        font-family: "Sofia Sans", Arial, sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .our-ai-chatbot {
+        font-family: "Sofia Sans", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.02em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .godmans-ai-chatbot {
+        width: 728px;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: left;
+    }
+
+    .frame-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 78px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.6);
+        padding-bottom: 70px;
+    }
+
+    .review-card-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 380px);
+        grid-gap: 24px;
+        width: 100%;
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review-card {
+        border: 2px solid rgba(62, 133, 246, 0.5);
+        border-radius: 10px;
+        padding: 23px 24px 25px 28px;
+        width: 380px;
+        height: fit-content;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 21px;
+    }
+
+    .sub-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .review {
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: normal;
+        word-wrap: break-word;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .stars {
+        display: flex;
+        gap: 5px;
+    }
+
+    .star {
+        width: 35px;
+        height: 35px;
+    }
+
+    .loved-by-our-users-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 16px;
+        margin-top: 276px;
+    }
+
+    .loved-by-our-users {
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        letter-spacing: 0.02em;
+        color: rgba(255, 255, 255, 0.95);
+    }
+
+    .name {
+        margin-top: 13px;
+        font-family: "Sofia Sans", Arial, sans-serif;
+        line-height: 1;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.013em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
