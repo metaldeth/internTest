@@ -10,6 +10,28 @@
         text-align: left;
     }
 
+    .first-blur-element, .second-blur-element {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        background-color: rgba(62, 133, 246, 0.2);
+        filter: blur(100px);
+        transform-origin: 0 0;
+    }
+
+    .first-blur-element {
+        top: 900px;
+        right: -500px;
+        transform: rotate(146.6deg);
+    }
+
+    .second-blur-element {
+        top: 600px;
+        left: 100px;
+        transform: rotate(-146.6deg);
+    }
+
     .rise-with-ai-powered-sales-parent {
         display: flex;
         flex-direction: column;
@@ -113,12 +135,11 @@
     .frame-group {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 20px;
+        padding: 0 40px;
         margin-top: 40px;
         margin-bottom: 30px;
-        width: 100%;
-        padding: 0 15px;
     }
 
     .title {

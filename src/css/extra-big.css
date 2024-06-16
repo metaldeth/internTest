@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 2100px) {
     .godmanai {
         display: flex;
         flex-direction: column;
@@ -11,18 +11,6 @@
         text-align: left;
     }
 
-    .centered-blur-box {
-        position: absolute;
-        top: 807px;
-        left: 0;
-        width: 100%;
-        height: 1573px;
-        background-color: rgba(62, 133, 246, 0.2);
-        filter: blur(140px);
-        border-radius: 50%;
-    }
-
-
     .first-blur-element, .second-blur-element {
         position: absolute;
         border-radius: 50%;
@@ -32,20 +20,20 @@
     }
 
     .first-blur-element {
-        top: 465.6px;
-        left: 234.2px;
-        filter: blur(146.88px);
-        width: 326.4px;
-        height: 353.9px;
+        width: 800px;
+        height: 800px;
+        top: 500px;
+        left: 500px;
+        filter: blur(300px);
         transform: rotate(146.6deg);
     }
 
-    .second-blur-element{
-        top: 1299.93px;
-        left: 360.97px;
-        width: 330.51px;
-        height: 290.37px;
-        filter: blur(134.34px);
+    .second-blur-element {
+        width: 800px;
+        height: 800px;
+        top: 1100px;
+        filter: blur(300px);
+        right: 0;
         transform: rotate(-146.6deg);
     }
 
@@ -54,36 +42,24 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        gap: 11px;
-        margin-top: 40px;
+        gap: 20px;
+        margin-top: 150px;
     }
 
     .rise-with-ai-powered {
-        width: 284px;
-        text-align: center;
         font-family: "Sofia Sans", Arial, sans-serif;
         font-weight: 700;
-        font-size: 30px;
-        letter-spacing: 0.02em;
-        color: rgba(255, 255, 255, 0.95);
-    }
-
-    .loved-by-our-users {
-        width: 320px;
-        text-align: center;
-        font-family: "Sofia Sans", Arial, sans-serif;
-        font-weight: 700;
-        font-size: 30px;
+        font-size: 100px;
         letter-spacing: 0.02em;
         color: rgba(255, 255, 255, 0.95);
     }
 
     .welcome-to-the {
-        width: 284px;
+        width: 950px;
         font-family: "Sofia Sans", Arial, sans-serif;
-        font-size: 16px;
+        font-size: 50px;
         line-height: 1.2;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.03em;
         text-align: center;
         color: rgba(255, 255, 255, 0.9);
     }
@@ -93,16 +69,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        gap: 24px;
-        padding: 0 80px;
-        margin-top: 78px;
+        gap: 30px;
+        padding: 0 100px;
+        margin-top: 100px;
     }
 
     .feature-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 17px;
+        gap: 30px;
     }
 
     .feature {
@@ -113,90 +89,114 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        padding: 16px 16px 16.5px 16px;
-        gap: 10px;
-        width: 284px;
+        padding: 40px;
+        gap: 20px;
+        width: 550px;
         box-sizing: border-box;
     }
 
     .fast-learning {
         font-family: "Sofia Sans", Arial, sans-serif;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 52px;
         color: #fff;
+    }
+
+    .svg-size {
+        width: 40px;
+        height: 40px;
     }
 
     .our-ai-chatbot {
         font-family: "Sofia Sans", Arial, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 110%;
-        letter-spacing: 0.01em;
+        font-weight: 450;
+        font-size: 50px;
+        letter-spacing: 0.02em;
         color: rgba(255, 255, 255, 0.6);
     }
 
     .title {
         display: flex;
-        width: 252px;
         flex-direction: row;
         align-items: center;
-        gap: 10px;
+        gap: 30px;
+        width: 100%;
     }
 
     .godmans-ai-chatbot {
-        width: 284px;
+        width: 1000px;
         font-family: "Sofia Sans", Arial, sans-serif;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 120%;
+        font-size: 50px;
+        line-height: 1.2;
+        font-weight: 450;
         letter-spacing: 0.02em;
-        text-align: center;
         color: rgba(255, 255, 255, 0.9);
+        text-align: left;
     }
 
     .frame-group {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
-        gap: 24px;
-        margin-top: 76px;
-        margin-bottom: 20px;
+        gap: 30px;
+        margin-top: 100px;
+        padding: 0 100px;
         width: 100%;
         box-sizing: border-box;
-        font-size: 20px;
+        font-size: 30px;
         color: rgba(255, 255, 255, 0.6);
+        padding-bottom: 80px;
     }
 
     .review-card-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
+        gap: 45px;
+        width: 100%;
+        flex-wrap: wrap;
+        overflow-x: auto;
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
     }
 
     .review-card {
         border: 2px solid rgba(62, 133, 246, 0.5);
         border-radius: 10px;
-        padding: 16px;
-        width: 284px;
+        padding: 36px 40px;
+        width: 550px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
-        margin-bottom: 16px;
-    }
-
-    .sub-item:last-child {
-        margin-bottom: 0;
+        gap: 45px;
+        flex: 0 0 auto;
     }
 
     .review {
         font-family: 'Sofia Sans', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 110%;
-        letter-spacing: 0.01em;
+        font-weight: 450;
+        word-wrap: break-word;
+        font-size: 48px;
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+        text-align: left;
         color: rgba(255, 255, 255, 0.6);
+    }
+
+    .stars {
+        display: flex;
+        gap: 9px;
+    }
+
+    .star {
+        width: 40px;
+        height: 40px;
     }
 
     .loved-by-our-users-parent {
@@ -204,29 +204,25 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        gap: 12px;
-        margin-top: 160px;
+        gap: 30px;
+        margin-top: 300px;
+    }
+
+    .loved-by-our-users {
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 700;
+        font-size: 100px;
+        letter-spacing: 0.02em;
+        color: rgba(255, 255, 255, 0.95);
     }
 
     .name {
-        margin-top: 10px;
+        margin-top: 25px;
         font-family: "Sofia Sans", Arial, sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 110%;
-        letter-spacing: 0.01em;
+        line-height: 1.2;
+        font-weight: 450;
+        font-size: 38px;
+        letter-spacing: 0.02em;
         color: rgba(255, 255, 255, 0.6);
     }
-
-    .star {
-        width: 29px;
-        height: 29px;
-    }
-
-    .stars {
-        display: flex;
-        flex-direction: row;
-        column-gap: 3px;
-    }
 }
-

@@ -5,7 +5,10 @@ html, body {
   font-family: "Sofia Sans", Arial, sans-serif;
   background-color: #030827;
   color: rgba(255, 255, 255, 0.95);
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
+
 :root {
   --font-family: "Sofia Sans", sans-serif;
   --second-family: "Inter", sans-serif;
